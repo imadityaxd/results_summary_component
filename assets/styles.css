@@ -161,15 +161,20 @@ body{
 }
 .buttons .next{
     background-color: hsl(219, 76%, 52%);
-    
 }
-.buttons .next,.back{
-    width:40%;
+.buttons .home{
+    background-color: hsl(0,0%,100%);
+}
+.buttons .home a{
+    color:hsl(0, 0%, 25%);
+}
+.buttons .next,.back,.home{
+    width:24%;
     text-align: center;
     padding:10px;
     border-radius: 5px;
 }
-.buttons .next:hover,.back:hover{
+.buttons .next:hover,.back:hover,.home:hover{
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 
